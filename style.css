@@ -1,25 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    background-color: rgb(62, 197, 193);
-    line-height: 0cap;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-style: initial;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    background-color: black;
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-}
 h4 {
     background-color: black;
     color: aliceblue;
 }
+
 ul {
     text-align: center;
     text-decoration: underline;
+}
 
+.header {
+    background-color: rgb(13, 17, 23, 1);
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.header-container {
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 0;
+}
+
+.color-header {
+    background-color: rgb(13, 17, 23, 1);
+}
+
+.header img {
+    width: 15%;
+    padding: 15px 0;
+}
+
+.header h4 {
+    width: 100px;
+    padding: 30px 15px;
+    font-size: medium;
+    display: inline;
+    margin: auto;
+
+}
+
+.borda-h4 {
+    background-color: black;
+    font-weight: 800;
+}
+.borda-h4 li {
+    color: aliceblue;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.color-strong {
+    color: aliceblue;
 }
